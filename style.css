@@ -13,7 +13,11 @@ body{
     background: url('images/background.jpg');
     background-size: cover;
     background-position: center;
+   
+
 }
+
+
 .container{
     position: relative;
     width: 400px;
@@ -81,6 +85,12 @@ body{
     text-align: center;
     margin: 40px;
 
+}
+
+.weather-box,
+.weather-details,
+.not-found.active{
+    visibility: visible;
 }
 .weather-box img{
     width: 60%;
